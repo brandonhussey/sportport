@@ -1,0 +1,102 @@
+body {
+	margin: 0;
+	padding:0;
+	font: 11pt/ 1.5em Helvetica, Arial, sans-serif;
+}
+#loginForm {
+	float: left;
+	width: 450px;
+	height: 100%;
+	margin: 30px auto;
+	padding: 10px;
+	background-color: #fff;
+	border: solid #eee thin;
+}
+#registrationForm {
+	float: left;
+	width: 450px;
+	height: 100%;
+	margin: 30px auto;
+	padding: 10px;
+	background-color: #fff;
+	border: solid #eee thin;
+}
+h1 {
+	font-weight: 500;
+	font-family: Avenir, 'Helvetica Neue', Helvetica, Verdana, sans-serif;
+	text-align: center;
+	padding-bottom: 15px;
+	border-bottom: solid #eee thin;
+}
+h3 {
+	font-weight: 300;
+	font-family: Avenir, 'Helvetica Neue', Helvetica, Verdana, sans-serif;
+	text-align: center;
+	padding-bottom: 15px;
+	border-bottom: solid #eee thin;
+}
+form {
+	position: relative;
+	width: 100%;
+}
+fieldset {
+	border: none;
+}
+label {
+	color: #34495e;
+	display: block;
+	margin-bottom: 20px;
+	text-align: right;
+	font-family: 'Futura-Light', Arial, sans-serif;
+}
+label input {
+	width: 60%;
+	background: #ecf0f1;
+	padding: 5px;
+	color: #567;
+	font-size: 1em;
+	font-family: 'Futura-Light', Arial, sans-serif;
+	border:1px solid #bdc3c7;
+}
+label input:focus {
+	border: 1px solid #ecf0f1;
+	background: #fff;
+}
+.error {
+	color: #c0392b;
+	font-weight: 500;
+}
+
+#firstNameError, #lastNameError, #emailError, #passwordError, #confirmError, #loginEmailError, #loginPasswordError {
+	position: absolute;
+	width: 50%;
+	right: -250px;
+}
+
+#firstNameError {top: 10px;}
+#lastNameError {top: 60px;}
+#emailError {top: 115px;}
+#passwordError {top: 165px;}
+#confirmError {top: 220px;}
+
+#loginEmail {top:10px;}
+#loginPassword {top:60px;}
+
+.formSubmit {
+	width: 100px;
+	color: #ecf0f1;
+	margin-left: 340px;
+	padding: 10px 20px;
+	font-weight: bold;
+	font-size: 0.9em;
+	text-align: center;
+	background: #2ecc71;
+	border: solid #ecf0f1 thin;
+	border-radius: 3px;
+}
+
+.formSubmit:hover {
+	color: #ecf0f1;
+	background: #27ae60;
+	border: solid #ecf0f1 thin;
+}
